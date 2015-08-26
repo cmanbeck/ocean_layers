@@ -185,14 +185,14 @@ main {
 	}
 
 /* Slide 1 */
-#slide-1 .bcg {background-image:url('../img/bcg_slide-1.jpg')}
+#slide-1 .bcg {background-color: rgb(192,253,255)}
 #slide-1 .hsContent {
 	bottom: 200px;
 	top: auto;
 }
 
 /* Slide 2 */
-#slide-2 .bcg {background-image:url('../img/bcg_slide-2.jpg')}
+#slide-2 .bcg {background-color: rgb(23,249,255)}
 #slide-2 .hsContent {
 	margin-left: -450px;
 	top: auto;
@@ -203,7 +203,7 @@ main {
 }
 
 /* Slide 3 */
-#slide-3 .bcg {background-image:url('../img/bcg_slide-3.jpg')}
+#slide-3 .bcg {background-color: rgb(0,180,252)}
 #slide-3 .hsContent {
 	margin-left: -239px;
 }
@@ -213,7 +213,7 @@ main {
 	}
 
 /* Slide 4 */
-#slide-4 .bcg {background-image:url('../img/bcg_slide-4.jpg')}
+#slide-4 .bcg {background-color: rgb(0,91,197)}
 #slide-4 .hsContent {
 	margin-left: -450px;
 /* 	position: fixed;
@@ -224,6 +224,12 @@ main {
 		padding-left: 0;
 		padding-right: 0;
 	}
+
+#slide-5 .bcg {background-color: rgb(1,38,119)}
+
+#slide-6 .bcg {background-color: rgb(0,20,73)}
+
+#slide-7 .bcg {background-color: rgb(0,11,40)}
 
 /* ==========================================================================
    Helper classes
