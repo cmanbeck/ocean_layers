@@ -168,8 +168,8 @@ main {
 	top: 50%;
 }
 	.hsContent h2  {
-		color: #fff8de;
-		background-color: rgba(0,0,0,0.5);
+/* 		color: #fff8de; */
+/* 		background-color: rgba(0,0,0,0.5); */
 		padding: 10px 5px;
 		font-size: 35px;
 		line-height: 38px;
@@ -185,17 +185,21 @@ main {
 	}
 
 /* Slide 1 */
-#slide-1 .bcg {background-color: rgb(192,253,255)}
+#slide-1 .bcg {background-color: rgb(171,253,255)}
 #slide-1 .hsContent {
-	bottom: 200px;
+  text-align: center;
+  bottom: 200px;
 	top: auto;
+  /* margin-left:auto;
+  margin-right:auto; */
+  color: #58B0FF;
 }
 
 /* Slide 2 */
 #slide-2 .bcg {background-color: rgb(23,249,255)}
 #slide-2 .hsContent {
 	margin-left: -450px;
-	top: auto;
+	top: 20%;
 }
 #slide-2 h2 {
 /* 	position: fixed; */
@@ -205,11 +209,12 @@ main {
 /* Slide 3 */
 #slide-3 .bcg {background-color: rgb(0,180,252)}
 #slide-3 .hsContent {
-	margin-left: -239px;
+	margin-right: -100px;
+/*   top: 20%; */
 }
 	#slide-3 h2 {
 		color: #f2ead6;
-		background-color: rgba(0,0,0,0.6);
+    
 	}
 
 /* Slide 4 */

@@ -9,7 +9,7 @@ var layerInfo = {
   "mesopelagic": {
     "color": "",
     "depth": "",
-    "creatures": [],
+    "creatures": [{"name": " " "image": " " "details": " "}],
     "desc": "   "
   }
 
