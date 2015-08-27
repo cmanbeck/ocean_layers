@@ -23,4 +23,11 @@ h2{
 p{
   font-family: 'Quicksand', sans-serif;
   font-weight: 400;
+  text-align: justify;
+}
+
+li {
+  color: white;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 400;
 }

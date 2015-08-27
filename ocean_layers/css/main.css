@@ -163,12 +163,12 @@ main {
 
 .hsContent {
 	max-width: 700px;
-	position: absolute;
+  position: absolute;
 	left: 50%;
 	top: 50%;
 }
 	.hsContent h2  {
-/* 		color: #fff8de; */
+    color: white;
 /* 		background-color: rgba(0,0,0,0.5); */
 		padding: 10px 5px;
 		font-size: 35px;
@@ -177,40 +177,62 @@ main {
 	}
 	.hsContent p {
 		width: 400px;
-		color: #b2b2b2;
+		color: white;
 	}
 	.hsContent a {
 		color: #b2b2b2;
 		text-decoration: underline;
 	}
 
+/* div .epipelagic {
+  cursor:url(../img/garibaldi.png),auto;
+} */
+
 /* Slide 1 */
 #slide-1 .bcg {background-color: rgb(171,253,255)}
 #slide-1 .hsContent {
   text-align: center;
-  bottom: 200px;
-	top: auto;
-  /* margin-left:auto;
-  margin-right:auto; */
-  color: #58B0FF;
+  margin-left:auto;
+  margin-right:auto; 
+/*   bottom: 200px;
+	
+   
+  color: #58B0FF; */
+}
+#slide-1 h2 {
+  color: #386FFF;
+  font-weight: 400;
+  margin-left:auto;
+  margin-right:auto;
+  width: 100%;
 }
 
 /* Slide 2 */
-#slide-2 .bcg {background-color: rgb(23,249,255)}
-#slide-2 .hsContent {
-	margin-left: -450px;
-	top: 20%;
+#slide-2 .bcg {
+  background-color: rgb(23,249,255);
+  cursor: url(../img/garibaldi.png), auto;
 }
+#slide-2 .hsContent {
+	margin-left: -650px;
+	top: 10%;
+}
+/* #slide-2 .bcg: hover {
+	
+} */
+
 #slide-2 h2 {
 /* 	position: fixed; */
 	top: 70%;
 }
 
 /* Slide 3 */
-#slide-3 .bcg {background-color: rgb(0,180,252)}
+#slide-3 .bcg {
+  background-color: rgb(0,180,252);
+  cursor: url(../img/jellyfish.png), auto;}
+
 #slide-3 .hsContent {
-	margin-right: -100px;
-/*   top: 20%; */
+	margin-left: -650px;
+	top: 10%;
 }
 	#slide-3 h2 {
 		color: #f2ead6;
@@ -220,7 +242,8 @@ main {
 /* Slide 4 */
 #slide-4 .bcg {background-color: rgb(0,91,197)}
 #slide-4 .hsContent {
-	margin-left: -450px;
+	margin-left: -650px;
+	top: 10%;
 /* 	position: fixed;
 	top: 250px; */
 }
@@ -232,9 +255,36 @@ main {
 
 #slide-5 .bcg {background-color: rgb(1,38,119)}
 
+#slide-5 .hsContent {
+	margin-left: -650px;
+	top: 10%;
+}
+
 #slide-6 .bcg {background-color: rgb(0,20,73)}
 
+#slide-6 .hsContent {
+	margin-left: -650px;
+	top: 10%;
+}
+
 #slide-7 .bcg {background-color: rgb(0,11,40)}
+
+#slide-7 .hsContent {
+	margin-left: -650px;
+	top: 10%;
+}
+
+/* #slide-4 .hsContent {
+	margin-left: auto; */
+/* 	position: fixed;
+	top: 250px; */
+/* }
+
+#slide-4 h2 {
+		background: none;
+		padding-left: 0;
+		padding-right: 0;
+	} */
 
 /* ==========================================================================
    Helper classes
