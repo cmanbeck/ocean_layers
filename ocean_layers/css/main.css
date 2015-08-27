@@ -189,7 +189,8 @@ main {
 } */
 
 /* Slide 1 */
-#slide-1 .bcg {background-color: rgb(171,253,255)}
+#slide-1 .bcg {background-color: rgb(171,253,255);
+cursor: url(../img/seagull.png), auto;}
 #slide-1 .hsContent {
   text-align: center;
   margin-left:auto;
@@ -240,7 +241,10 @@ main {
 	}
 
 /* Slide 4 */
-#slide-4 .bcg {background-color: rgb(0,91,197)}
+#slide-4 .bcg {
+  background-color: rgb(0,91,197);
+  cursor: url(../img/squid.png), auto;}
+}
 #slide-4 .hsContent {
 	margin-left: -650px;
 	top: 10%;
@@ -248,19 +252,23 @@ main {
 	top: 250px; */
 }
 	#slide-4 h2 {
-		background: none;
+/* 		background: none;
 		padding-left: 0;
-		padding-right: 0;
+		padding-right: 0; */
 	}
 
-#slide-5 .bcg {background-color: rgb(1,38,119)}
+#slide-5 .bcg {
+  background-color: rgb(1,38,119);
+  cursor: url(../img/anglerfish.png), auto;}
+}
 
 #slide-5 .hsContent {
 	margin-left: -650px;
 	top: 10%;
 }
 
-#slide-6 .bcg {background-color: rgb(0,20,73)}
+#slide-6 .bcg {background-color: rgb(0,20,73);
+cursor: url(../img/snailfish.png), auto;}
 
 #slide-6 .hsContent {
 	margin-left: -650px;
