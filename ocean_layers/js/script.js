@@ -35,3 +35,18 @@ var layerInfo = {
   }
 
 }
+
+// $(function() {
+//     var img = $("#sheephead"),
+//         width = img.get(0).width,
+//         screenWidth = $(window).width(),
+//         duration = 2000;
+
+//     function animateSheephead() {
+//         img.css("right", -width).animate({
+//             "right": screenWidth
+//         }, duration, animateSheephead);
+//     }
+
+//     animateSheephead();
+// });

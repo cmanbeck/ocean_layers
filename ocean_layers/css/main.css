@@ -37,6 +37,21 @@ body {
     line-height: 1.4;
 }
 
+.sun {
+  float: left;
+  top: 10%;
+  margin-top: 70px;
+  margin-left: 70px;
+}
+
+.sheephead {
+  width : 30%;
+  height : auto;
+  position : absolute;
+  bottom : 10%;
+  left : 6%;
+}
+
 /*
  * Remove text-shadow in selection highlight: h5bp.com/i
  * These selection rule sets have to be separate.
@@ -162,7 +177,8 @@ main {
 }
 
 .hsContent {
-	max-width: 700px;
+	max-width: 4000px;
+  max-height: 2000px;
   position: absolute;
 	left: 50%;
 	top: 50%;
@@ -216,10 +232,9 @@ cursor: url(../img/seagull.png), auto;}
 #slide-2 .hsContent {
 	margin-left: -650px;
 	top: 10%;
+  max-width: 1000px;
+  max-height: 800px;
 }
-/* #slide-2 .bcg: hover {
-	
-} */
 
 #slide-2 h2 {
 /* 	position: fixed; */
@@ -244,22 +259,17 @@ cursor: url(../img/seagull.png), auto;}
 #slide-4 .bcg {
   background-color: rgb(0,91,197);
   cursor: url(../img/squid.png), auto;}
-}
+
 #slide-4 .hsContent {
 	margin-left: -650px;
 	top: 10%;
 /* 	position: fixed;
 	top: 250px; */
 }
-	#slide-4 h2 {
-/* 		background: none;
-		padding-left: 0;
-		padding-right: 0; */
-	}
 
 #slide-5 .bcg {
   background-color: rgb(1,38,119);
-  cursor: url(../img/anglerfish.png), auto;}
+  cursor: url(../img/anglerfish.png), auto;
 }
 
 #slide-5 .hsContent {
@@ -275,7 +285,8 @@ cursor: url(../img/snailfish.png), auto;}
 	top: 10%;
 }
 
-#slide-7 .bcg {background-color: rgb(0,11,40)}
+#slide-7 .bcg {background-color: rgb(0,11,40);
+cursor: url(../img/conch.png), auto;}
 
 #slide-7 .hsContent {
 	margin-left: -650px;
